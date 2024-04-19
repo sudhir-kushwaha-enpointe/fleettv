@@ -4,6 +4,7 @@ body {
   font-family: "Oswald", sans-serif;
   height: 100vh;
   background-color: #000;
+   /* background-color: #ffffff; */
   color: #fff;
 }
 
@@ -418,7 +419,7 @@ margin-top: -80px;
 }
 
 .branded-content11 {
-  background: url("../img/video-stills/Sunsilk-OFFICE.png") center center no-repeat;
+  background: url("../img/video-stills/Sunsilk-Coffee.png") center center no-repeat;
   /* width: 900px;
   height: 580px; */
 }
@@ -433,7 +434,20 @@ margin-top: -80px;
 .reels03,
 .reels04,
 .reels05,
-.reels06{
+.reels06,
+.reels07,
+.reels08,
+.reels09,
+.reels10,
+.reels11,
+.reels12,
+.reels13,
+.reels14,
+.reels15,
+.reels16,
+.reels17,
+.reels18,
+.reels19{
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -486,6 +500,35 @@ margin-top: -80px;
   background: url("../img/video-stills/Black.png") center center no-repeat;
 }
 
+.reels12 {
+  background: url("../img/video-stills/Poppins-20secs-HD-Logo-Left.png") center center no-repeat;
+}
+
+.reels13 {
+  background: url("../img/video-stills/Mango-Bite-15secs-HD-Logo-Left.png") center center no-repeat;
+}
+.reels14 {
+  background: url("../img/video-stills/Rola-Cola-08secs-HD-Logo-Left.png") center center no-repeat;
+}
+
+.reels15 {
+  background: url("../img/video-stills/Candy-Culture-15secs-HD-Logo-Left.png") center center no-repeat;
+}
+
+.reels16 {
+  background: url("../img/video-stills/Kismi-15secs-HD-Logo-Left-insta.png") center center no-repeat;
+}
+
+.reels17 {
+  background: url("../img/video-stills/Londonderry-15secs-HD-Logo-Left.png") center center no-repeat;
+}
+
+.reels18 {
+  background: url("../img/video-stills/Kismi-Gift-Pack-20secs-HD-Logo-Left.png") center center no-repeat;
+}
+.reels19 {
+  background: url("../img/video-stills/2in1-Eclairs-15secs-HD-Logo-Left.png") center center no-repeat;
+}
 /* reels End */
 
 
@@ -503,7 +546,8 @@ margin-top: -80px;
 .long-reel10,
 .long-reel11,
 .long-reel12,
-.long-reel13{
+.long-reel13,
+.long-reel14{
   background-size: contain!important;
   display: flex;
   flex-direction: column;
@@ -562,6 +606,10 @@ margin-top: -80px;
 
 .long-reel13 {
   background: url("../img/video-stills/Britannia-Good-Day-Chunkies.png") center center no-repeat;
+}
+
+.long-reel14 {
+  background: url("../img/video-stills/royal-stag-long-reel.png") center center no-repeat;
 }
 
 /* Long reels End */
