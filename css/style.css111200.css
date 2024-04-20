@@ -328,33 +328,126 @@ margin-top: -80px;
   display: block;
 }
 
-.slide01,
-.slide02,
-.slide03,
-.slide04 {
-  background-size: cover;
+
+
+/*Main Reel Page Start*/
+
+.main-reel01,
+.main-reel02,
+.main-reel03,
+.main-reel04,
+.main-reel05,
+.main-reel06,
+.main-reel07,
+.main-reel08,
+.main-reel09,
+.main-reel10{
+  background-size: cover!important;
   display: flex;
   flex-direction: column;
   justify-content: start;
-  align-items: end;
+  align-items: center;
   flex-wrap: wrap;
 }
 
-.slide01 {
-  background: url("../img/video-stills/hyundai-verna.png") center center no-repeat;
+.main-reel01 {
+  background: url("../img/video-stills/Enamor.png") center center no-repeat;
+}
+.main-reel02 {
+  background: url("../img/video-stills/Lodha-Palava.png") center center no-repeat;
+}
+.main-reel03 {
+  background: url("../img/video-stills/royal-stag-img.png") center center no-repeat;
+}
+.main-reel04 {
+  background: url("../img/video-stills/volkswagen-Jettaa.png") center center no-repeat;
+}
+.main-reel05 {
+  background: url("../img/video-stills/Park-Avenue-Deo.png") center center no-repeat;
+}
+.main-reel06 {
+  background: url("../img/video-stills/sony-bravia.png") center center no-repeat;
+}
+.main-reel07 {
+  background: url("../img/video-stills/kolber-watches.png") center center no-repeat;
+}
+.main-reel08 {
+  background: url("../img/video-stills/Pa-Beer-Shamoo.png") center center no-repeat;
+}
+.main-reel09 {
+  background: url("../img/video-stills/Dominos-Pastaa.png") center center no-repeat;
+}
+.main-reel10 {
+  background: url("../img/video-stills/Mothers-Horlicks.png") center center no-repeat;
+}
+/*Main Reel Page End */
+
+
+
+/*Animation Page Start*/
+
+.animation01,
+.animation02,
+.animation03,
+.animation04,
+.animation05,
+.animation06,
+.animation07{
+  background-size: cover!important;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-.slide02 {
-  background: url("../img/video-stills/Hazoorlal-Legacy.avif") center center no-repeat;
+.animation01 {
+  background: url("../img/video-stills/ITC-Vivel-UltraPro.png") center center no-repeat;
+}
+.animation02 {
+  background: url("../img/video-stills/Amrapali-group.png") center center no-repeat;
+}
+.animation03 {
+  background: url("../img/video-stills/Full-24-Dhoni.png") center center no-repeat;
+}
+.animation04 {
+  background: url("../img/video-stills/27-Cadbury-Eclairs.png") center center no-repeat;
+}
+.animation05 {
+  background: url("../img/video-stills/MTS-and-HP.png") center center no-repeat;
+}
+.animation06 {
+  background: url("../img/video-stills/Supractiv-Complete.png") center center no-repeat;
+}
+.animation07 {
+  background: url("../img/video-stills/VW-Vento-Scratch.png") center center no-repeat;
+}
+/*Animation Page End */
+
+
+/*Automobiles Page Start*/
+
+.automobiles01,
+.automobiles02,
+.automobiles03{
+  background-size: cover!important;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
-.slide03 {
-  background: url("../img/video-stills/vivo.avif") center center no-repeat;
+.automobiles01 {
+  background: url("../img/video-stills/volkswagen-Jetta.png") center center no-repeat;
 }
-
-.slide04 {
-  background: url("../img/video-stills/vitara-brezza.avif") center center no-repeat;
+.automobiles02 {
+  background: url("../img/video-stills/Director-scut.png") center center no-repeat;
 }
+.automobiles03 {
+  background: url("../img/video-stills/Maruti-Ritz.png") center center no-repeat;
+}
+/*Automobiles Page End */
 
 
 /* branded-content Start*/
@@ -368,8 +461,9 @@ margin-top: -80px;
 .branded-content08,
 .branded-content09,
 .branded-content10,
-.branded-content11{
-  background-size:cover!important;
+.branded-content11,
+.branded-content12{
+  background-size:contain!important;
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -420,12 +514,184 @@ margin-top: -80px;
 
 .branded-content11 {
   background: url("../img/video-stills/Sunsilk-Coffee.png") center center no-repeat;
-  /* width: 900px;
-  height: 580px; */
+}
+
+.branded-content12 {
+  background: url("../img/video-stills/Tata-Design.png") center center no-repeat;
 }
 
 
 /* Branded Content End */
+
+
+/*Celebrity Page Start*/
+
+.celebrity01,
+.celebrity02,
+.celebrity03,
+.celebrity04,
+.celebrity05,
+.celebrity06,
+.celebrity07,
+.celebrity08,
+.celebrity09,
+.celebrity10,
+.celebrity11,
+.celebrity12,
+.celebrity13{
+  background-size: cover!important;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.celebrity01 {
+  background: url("../img/video-stills/Samsung-savings.png") center center no-repeat;
+}
+
+.celebrity02 {
+  background: url("../img/video-stills/Big-Bazaar-Fashion-Thief.png") center center no-repeat;
+}
+
+.celebrity03 {
+  background: url("../img/video-stills/Samusng-Silence.png") center center no-repeat;
+}
+
+.celebrity04 {
+  background: url("../img/video-stills/Anne-French.png") center center no-repeat;
+}
+
+.celebrity05 {
+  background: url("../img/video-stills/Amrapali.png") center center no-repeat;
+}
+
+.celebrity06 {
+  background: url("../img/video-stills/Royal-Stag.png") center center no-repeat;
+}
+
+.celebrity07 {
+  background: url("../img/video-stills/Spice-70000.png") center center no-repeat;
+}
+
+.celebrity08 {
+  background: url("../img/video-stills/samsung-Freshness.png") center center no-repeat;
+}
+
+.celebrity09 {
+  background: url("../img/video-stills/ITC-Vivel-UltraPro.png") center center no-repeat;
+}
+
+.celebrity10 {
+  background: url("../img/video-stills/Tata-Indicom.png") center center no-repeat;
+}
+
+.celebrity11 {
+  background: url("../img/video-stills/Full-24-Dhoni.png") center center no-repeat;
+}
+
+.celebrity12 {
+  background: url("../img/video-stills/Kelloggs-sec-Honeyloop.png") center center no-repeat;
+}
+
+.celebrity13 {
+  background: url("../img/video-stills/Britannia.png") center center no-repeat;
+}
+
+/* Celebrity Page End */
+
+/*Corporate Page Start*/
+
+.corporate01{
+  background-size: cover!important;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.corporate01 {
+  background: url("../img/video-stills/Maruti-Suzuki-XA-Alpha.png") center center no-repeat;
+}
+/*Corporate Page End */
+
+
+
+/*Food Start*/
+
+.food01,
+.food02,
+.food03,
+.food04,
+.food05{
+  background-size: cover!important;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.food01 {
+  background: url("../img/video-stills/Dominos-Twin-Effect.png") center center no-repeat;
+}
+
+.food02 {
+  background: url("../img/video-stills/DOMINOS-PASTA.png") center center no-repeat;
+}
+
+.food03 {
+  background: url("../img/video-stills/Cadbury-Eclairs.png") center center no-repeat;
+}
+
+.food04{
+  background: url("../img/video-stills/Kelloggs-sec-Honeyloop.png") center center no-repeat;
+}
+
+.food05 {
+  background: url("../img/video-stills/Padukone-Britannia.png") center center no-repeat;
+}
+/*Food End */
+
+
+/*Fmcg Start*/
+
+.fmcg01,
+.fmcg02,
+.fmcg03,
+.fmcg04,
+.fmcg05{
+  background-size: cover!important;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.fmcg01 {
+  background: url("../img/video-stills/Horlicks-Sachet.png") center center no-repeat;
+}
+
+.fmcg02 {
+  background: url("../img/video-stills/Park-Avenue-Shampoo.png") center center no-repeat;
+}
+
+.fmcg03 {
+  background: url("../img/video-stills/Kelloggs-sec-Honeyloops.png") center center no-repeat;
+}
+
+.fmcg04{
+  background: url("../img/video-stills/Lifebuoy-cough-and-cold.png") center center no-repeat;
+}
+
+.fmcg05 {
+  background: url("../img/video-stills/Mother-Horlicks.png") center center no-repeat;
+}
+/*Fmcg End */
+
 
 /* reels Start*/
 
@@ -448,7 +714,7 @@ margin-top: -80px;
 .reels17,
 .reels18,
 .reels19{
-  background-size: cover;
+  background-size: cover!important;
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -548,7 +814,7 @@ margin-top: -80px;
 .long-reel12,
 .long-reel13,
 .long-reel14{
-  background-size: contain!important;
+  background-size: cover!important;
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -614,156 +880,6 @@ margin-top: -80px;
 
 /* Long reels End */
 
-/*Fmcg Start*/
-
-.fmcg01,
-.fmcg02,
-.fmcg03,
-.fmcg04,
-.fmcg05{
-  background-size: contain!important;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.fmcg01 {
-  background: url("../img/video-stills/Horlicks-Sachet.png") center center no-repeat;
-}
-
-.fmcg02 {
-  background: url("../img/video-stills/Park-Avenue-Shampoo.png") center center no-repeat;
-}
-
-.fmcg03 {
-  background: url("../img/video-stills/Kelloggs-sec-Honeyloops.png") center center no-repeat;
-}
-
-.fmcg04{
-  background: url("../img/video-stills/Lifebuoy-cough-and-cold") center center no-repeat;
-}
-
-.fmcg05 {
-  background: url("../img/video-stills/Mother-Horlicks.png") center center no-repeat;
-}
-/*Fmcg End */
-
-/*Food Start*/
-
-.food01,
-.food02,
-.food03,
-.food04,
-.food05{
-  background-size: contain!important;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.food01 {
-  background: url("../img/video-stills/Dominos-Twin-Effect.png") center center no-repeat;
-}
-
-.food02 {
-  background: url("../img/video-stills/DOMINOS-PASTA.png") center center no-repeat;
-}
-
-.food03 {
-  background: url("../img/video-stills/Cadbury-Eclairs.png") center center no-repeat;
-}
-
-.food04{
-  background: url("../img/video-stills/Kelloggs-sec-Honeyloop.png") center center no-repeat;
-}
-
-.food05 {
-  background: url("../img/video-stills/Padukone-Britannia.png") center center no-repeat;
-}
-/*Fmcg End */
-
-
-/*Celebrity Page Start*/
-
-.celebrity01,
-.celebrity02,
-.celebrity03,
-.celebrity04,
-.celebrity05,
-.celebrity06,
-.celebrity07,
-.celebrity08,
-.celebrity09,
-.celebrity10,
-.celebrity11,
-.celebrity12,
-.celebrity13{
-  background-size: contain!important;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.celebrity01 {
-  background: url("../img/video-stills/Samsung-savings.png") center center no-repeat;
-}
-
-.celebrity02 {
-  background: url("../img/video-stills/Big-Bazaar-Fashion-Thief.png") center center no-repeat;
-}
-
-.celebrity03 {
-  background: url("../img/video-stills/Samusng-Silence.png") center center no-repeat;
-}
-
-.celebrity04 {
-  background: url("../img/video-stills/Anne-French.png") center center no-repeat;
-}
-
-.celebrity05 {
-  background: url("../img/video-stills/Amrapali.png") center center no-repeat;
-}
-
-.celebrity06 {
-  background: url("../img/video-stills/Royal-Stag.png") center center no-repeat;
-}
-
-.celebrity07 {
-  background: url("../img/video-stills/Spice-70000.png") center center no-repeat;
-}
-
-.celebrity08 {
-  background: url("../img/video-stills/samsung-Freshness.png") center center no-repeat;
-}
-
-.celebrity09 {
-  background: url("../img/video-stills/ITC-Vivel-UltraPro.png") center center no-repeat;
-}
-
-.celebrity10 {
-  background: url("../img/video-stills/Tata-Indicom.png") center center no-repeat;
-}
-
-.celebrity11 {
-  background: url("../img/video-stills/Full-24-Dhoni.png") center center no-repeat;
-}
-
-.celebrity12 {
-  background: url("../img/video-stills/Kelloggs-sec-Honeyloop.png") center center no-repeat;
-}
-
-.celebrity13 {
-  background: url("../img/video-stills/Britannia.png") center center no-repeat;
-}
-
-/* Food Page End */
-
 
 /*Music Videos Page Start*/
 
@@ -771,7 +887,7 @@ margin-top: -80px;
 .music-videos02,
 .music-videos03,
 .music-videos04 {
-  background-size: contain!important;
+  background-size: cover!important;
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -796,103 +912,11 @@ margin-top: -80px;
 }
 /*Music Video Page End */
 
-/*Corporate Page Start*/
-
-.corporate01{
-  background-size: contain!important;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.corporate01 {
-  background: url("../img/video-stills/Maruti-Suzuki-XA-Alpha.png") center center no-repeat;
-}
-/*Corporate Page End */
-
-/*Automobiles Page Start*/
-
-.automobiles01,
-.automobiles02,
-.automobiles03{
-  background-size: contain!important;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.automobiles01 {
-  background: url("../img/video-stills/volkswagen-Jetta.png") center center no-repeat;
-}
-.automobiles02 {
-  background: url("../img/video-stills/Director-scut.png") center center no-repeat;
-}
-.automobiles03 {
-  background: url("../img/video-stills/Maruti-Ritz.png") center center no-repeat;
-}
-/*Automobiles Page End */
-
-/*Main Reel Page Start*/
-
-.main-reel01,
-.main-reel02,
-.main-reel03,
-.main-reel04,
-.main-reel05,
-.main-reel06,
-.main-reel07,
-.main-reel08,
-.main-reel09,
-.main-reel10{
-  background-size: contain!important;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.main-reel01 {
-  background: url("../img/video-stills/Enamor.png") center center no-repeat;
-}
-.main-reel02 {
-  background: url("../img/video-stills/Lodha-Palava.png") center center no-repeat;
-}
-.main-reel03 {
-  background: url("../img/video-stills/royal-stag-img.png") center center no-repeat;
-}
-.main-reel04 {
-  background: url("../img/video-stills/volkswagen-Jettaa.png") center center no-repeat;
-}
-.main-reel05 {
-  background: url("../img/video-stills/Park-Avenue-Deo.png") center center no-repeat;
-}
-.main-reel06 {
-  background: url("../img/video-stills/sony-bravia.png") center center no-repeat;
-}
-.main-reel07 {
-  background: url("../img/video-stills/kolber-watches.png") center center no-repeat;
-}
-.main-reel08 {
-  background: url("../img/video-stills/Pa-Beer-Shamoo.png") center center no-repeat;
-}
-.main-reel09 {
-  background: url("../img/video-stills/Dominos-Pastaa.png") center center no-repeat;
-}
-.main-reel10 {
-  background: url("../img/video-stills/Mothers-Horlicks.png") center center no-repeat;
-}
-/*Main Reel Page End */
-
 /*Short Films Page Start*/
 
 .short-films01,
 .short-films02{
-  background-size: contain!important;
+  background-size: cover!important;
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -908,45 +932,39 @@ margin-top: -80px;
 }
 /*Short Films Page End */
 
-/*Animation Page Start*/
-
-.animation01,
-.animation02,
-.animation03,
-.animation04,
-.animation05,
-.animation06,
-.animation07{
-  background-size: contain!important;
+.slide01,
+.slide02,
+.slide03,
+.slide04 {
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: start;
-  align-items: center;
+  align-items: end;
   flex-wrap: wrap;
 }
 
-.animation01 {
-  background: url("../img/video-stills/ITC-Vivel-UltraPro.png") center center no-repeat;
+.slide01 {
+  background: url("../img/video-stills/hyundai-verna.png") center center no-repeat;
 }
-.animation02 {
-  background: url("../img/video-stills/Amrapali-group.png") center center no-repeat;
+
+.slide02 {
+  background: url("../img/video-stills/Hazoorlal-Legacy.avif") center center no-repeat;
 }
-.animation03 {
-  background: url("../img/video-stills/Full-24-Dhoni.png") center center no-repeat;
+
+.slide03 {
+  background: url("../img/video-stills/vivo.avif") center center no-repeat;
 }
-.animation04 {
-  background: url("../img/video-stills/27-Cadbury-Eclairs.png") center center no-repeat;
+
+.slide04 {
+  background: url("../img/video-stills/vitara-brezza.avif") center center no-repeat;
 }
-.animation05 {
-  background: url("../img/video-stills/MTS-and-HP.png") center center no-repeat;
-}
-.animation06 {
-  background: url("../img/video-stills/Supractiv-Complete.png") center center no-repeat;
-}
-.animation07 {
-  background: url("../img/video-stills/VW-Vento-Scratch.png") center center no-repeat;
-}
-/*Animation Page End */
+
+
+
+
+
+
 
 
 
