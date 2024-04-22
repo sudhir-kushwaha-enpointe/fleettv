@@ -3,7 +3,8 @@
 body {
   font-family: "Oswald", sans-serif;
   height: 100vh;
-  background-color: #000;
+  /* background-color: #000; */
+   background-color: #fff;
   color: #fff;
 }
 
@@ -12,11 +13,12 @@ body {
 .desktop-main-menu {
     position: fixed;
      top: 0px;
-    visibility: hidden;
+    visibility: visible!important;
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     z-index: 9999;
 }
+
 
 .logo{
   z-index: 9999;
