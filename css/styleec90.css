@@ -85,6 +85,9 @@ body {
   .title h1 {
     font-size: calc(1.8rem + 1vw);
   }
+  .title-container h1 {
+    bottom: 15%!important;
+}
 }
 
 .gotoNext {
