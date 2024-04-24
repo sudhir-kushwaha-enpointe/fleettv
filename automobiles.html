@@ -172,38 +172,32 @@
             <script src="js/app.js"></script>
             <script src="js/appec90.js"></script>
              <script>
-            
+                // Get all iframes with the class 'vimeo-player'
+                var iframes = document.querySelectorAll('.vimeo-player');
+                // Loop through each iframe and initialize Vimeo player
+                iframes.forEach(function(iframe) {
+                    var player = new Vimeo.Player(iframe);
 
-                            // Get all iframes with the class 'vimeo-player'
-                            var iframes = document.querySelectorAll('.vimeo-player');
-                            // Loop through each iframe and initialize Vimeo player
-                            iframes.forEach(function(iframe) {
-                                var player = new Vimeo.Player(iframe);
+                    // Get the parent element of the iframe to find the title container
+                    var parentSection = iframe.closest('section');
 
-                                // Get the parent element of the iframe to find the title container
-                                var parentSection = iframe.closest('section');
+                    // Find the title container within the parent section
+                    var titleContainer = parentSection.querySelector('.title-container');
 
-                                // Find the title container within the parent section
-                                var titleContainer = parentSection.querySelector('.title-container');
+                    // Hide the title initially
+                    titleContainer.style.display = 'block';
 
-                                // Hide the title initially
-                                titleContainer.style.display = 'block';
+                    // Add event listeners for play and pause events
+                    player.on('play', function() {
+                        // Show the title when the video plays
+                        titleContainer.style.display = 'none';
+                    });
 
-                                // Add event listeners for play and pause events
-                                player.on('play', function() {
-                                    // Show the title when the video plays
-                                    titleContainer.style.display = 'none';
-                                });
-
-                                player.on('pause', function() {
-                                    // Hide the title when the video pauses
-                                    titleContainer.style.display = 'block';
-                                });
-                            });
-
-
-
-
+                    player.on('pause', function() {
+                        // Hide the title when the video pauses
+                        titleContainer.style.display = 'block';
+                    });
+                });
             </script>
         </footer>
     </body>

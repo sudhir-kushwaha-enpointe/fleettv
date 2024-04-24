@@ -123,12 +123,12 @@
         <div class="container-fluid" style="margin-top: 100px;">
             <div class="short-films-container">
                 <section class="panel short-films01 mb-5" id="short-films01">
-                    <div class="title" id="title-container">
+                    <div class="title title-container" id="title-container">
                         <h1>Connected Trailer</h1>
                     </div>
                     <div class="contentWrap work-videos">
                         <div style="position: static;">
-                            <iframe src="https://player.vimeo.com/video/935314521?h=767973101&autoplay=0&color=ffffff&title=0&byline=0&portrait=0&badge=0" style="background-color:#232323;position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" autoplay="false" allowfullscreen></iframe>
+                            <iframe class="vimeo-player" src="https://player.vimeo.com/video/935314521?h=767973101&autoplay=0&color=ffffff&title=0&byline=0&portrait=0&badge=0" style="background-color:#232323;position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allowfullscreen></iframe>
                         </div>
                     </div>
                     <div class="gotoNext">
@@ -136,12 +136,12 @@
                     </div>
                 </section>
                 <section class="panel short-films02 last mb-5" id="short-films02">
-                    <div class="title" id="title-container">
+                    <div class="title title-container" id="title-container">
                         <h1>QED TRAILER</h1>
                     </div>
                     <div class="contentWrap work-videos">
                         <div style="position: static;">
-                            <iframe src="https://player.vimeo.com/video/935314554?h=767973101&autoplay=0&color=ffffff&title=0&byline=0&portrait=0&badge=0" style="background-color:#232323;position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" autoplay="false" allowfullscreen></iframe>
+                            <iframe class="vimeo-player" src="https://player.vimeo.com/video/935314554?h=767973101&autoplay=0&color=ffffff&title=0&byline=0&portrait=0&badge=0" style="background-color:#232323;position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allowfullscreen></iframe>
                         </div>
                     </div>
                 </section>
@@ -159,6 +159,34 @@
             <script src="js/home.js"></script>
             <script src="js/app.js"></script>
             <script src="js/appec90.js"></script>
+            <script>
+                    // Get all iframes with the class 'vimeo-player'
+                    var iframes = document.querySelectorAll('.vimeo-player');
+                    // Loop through each iframe and initialize Vimeo player
+                    iframes.forEach(function(iframe) {
+                        var player = new Vimeo.Player(iframe);
+
+                        // Get the parent element of the iframe to find the title container
+                        var parentSection = iframe.closest('section');
+
+                        // Find the title container within the parent section
+                        var titleContainer = parentSection.querySelector('.title-container');
+
+                        // Hide the title initially
+                        titleContainer.style.display = 'block';
+
+                        // Add event listeners for play and pause events
+                        player.on('play', function() {
+                            // Show the title when the video plays
+                            titleContainer.style.display = 'none';
+                        });
+
+                        player.on('pause', function() {
+                            // Hide the title when the video pauses
+                            titleContainer.style.display = 'block';
+                        });
+                    });
+                </script>
         </footer>
     </body>
 </html>
