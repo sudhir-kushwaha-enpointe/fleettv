@@ -20,12 +20,12 @@ function sendEmailViaSMTP($to, $subject, $body) {
     $mail->Username   = 'updates@pridel.com';    // SMTP username
     $mail->Password   = 'pridelupdates2121';    // SMTP password
     $mail->SMTPSecure = 'ssl';              // Enable TLS encryption
-    $mail->Port       = 465;                // TCP port to connect to
+    $mail->Port       = 465;                // TCP port to connect to 587,25
     
     // Sender and recipient settings
-    $mail->setFrom('sudhir.kushwaha@enpointe.io', 'meetfleet.tv');
+    $mail->setFrom('info@meetfleet.tv', 'meetfleet.tv');
     $mail->addAddress($to);
-    $mail->addAddress('sudhir.kushwaha@enpointe.io');
+    $mail->addAddress('info@meetfleet.tv');
 
     // Email content
     $mail->isHTML(true);
@@ -37,6 +37,7 @@ function sendEmailViaSMTP($to, $subject, $body) {
 
     if ($mail->send()) {
         echo 'Email sent successfully.';
+        return true;
     } else {
         echo 'Error sending email: ' . $mail->ErrorInfo;
     }
@@ -62,9 +63,15 @@ $body = '<h2>meetfleet.tv Email.</h2></br>
 
 ';
 
-sendEmailViaSMTP($to, $subject, $body);
+// $val = sendEmailViaSMTP($to, $subject, $body);
 
-
-
+ // Send email
+    if (sendEmailViaSMTP($to, $subject, $body)) {
+       echo '<script>window.location.href = "contact-us.html";</script>';
+exit;
+    } else {
+        // Handle email sending failure
+        // You can display an error message here if needed
+    }
 
 ?>
