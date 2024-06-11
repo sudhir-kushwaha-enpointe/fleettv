@@ -65,7 +65,7 @@ $body = '<h2>meetfleet.tv Email.</h2></br>
 
 // $val = sendEmailViaSMTP($to, $subject, $body);
 
- // Send email
+ // Send emailffc
     if (sendEmailViaSMTP($to, $subject, $body)) {
        echo '<script>window.location.href = "contact-us.html";</script>';
 exit;
